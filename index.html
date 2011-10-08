@@ -1,0 +1,23 @@
+---
+layout: default
+title: FY12 SFRC Sentry and M9 Qualifications
+---
+
+
+<div id="home">
+
+  <div class="title">
+    Sign up here for a BCN to attend a sentry and M9 qualification class.<br />
+    <a href="bcn.html"><img src="images/button.png"></a>
+  </div>
+  
+
+  <h1>News</h1>
+  <ul class="posts">
+    {% for post in site.posts %}{% if tagpost=='news' %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+</div>
