@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Sentry & M9 Training Schedule for NOSC Tucson
-{% assign tagpost='news' %}
+title: Sentry and M9 Training Schedule for NOSC Tucson
 ---
 
 {{ page.title }}
